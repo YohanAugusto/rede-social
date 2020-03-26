@@ -1,0 +1,36 @@
+.postInput {
+  margin: auto;
+  width: 50%;
+  padding-top: 15px;
+}
+
+.postList {
+  margin: auto;
+  width: 50%;
+  padding-top: 30px;
+}
+
+.commentList {
+  margin: auto;
+  width: 50%;
+}
+
+.comment {
+  background-color: #e9ebee;
+  border-radius: 0.8rem;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .postInput {
+    width: 90%;
+  }
+
+  .postList {
+    width: 90%;
+  }
+
+  .commentList {
+    width: 90%;
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "name": "teste-rede-social",
+  "private": true,
+  "version": "0.1.0",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.4.1",
+    "client-oauth2": "^4.2.5",
+    "history": "^4.10.1",
+    "md5": "^2.2.1",
+    "node-sass": "^4.13.0",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.9.0",
+    "react": "^16.12.0",
+    "react-app-polyfill": "^1.0.5",
+    "react-bootstrap": "^1.0.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.0",
+    "use-react-router": "^1.0.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint-config-plurall": "^1.7.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "husk": "^0.5.3",
+    "jest-enzyme": "^7.1.2",
+    "lint-staged": "^9.5.0",
+    "opn": "^6.0.0",
+    "prettier": "^1.19.1",
+    "react-test-renderer": "^16.12.0"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "lint": "eslint src/ --ext js,jsx",
+    "test": "react-scripts test && yarn lint",
+    "precommit": "lint-staged",
+    "start": "react-scripts start"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">1%",
+      "last 4 versions",
+      "Firefox ESR",
+      "not ie < 11"
+    ]
+  }
+}

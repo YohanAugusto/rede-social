@@ -1,0 +1,8 @@
+.content {
+  min-height: calc(100vh - var(--height-nav-bar) - var(--height-footer));
+}
+
+.footer {
+  background-color: var(--color-dark-gray);
+  padding: var(--padding);
+}
