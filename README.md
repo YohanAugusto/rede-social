@@ -1,6 +1,6 @@
 # Projeto
 
-Esse projeto um teste para para a Tech Agro.
+Esse projeto simula postagens e comentários.
 
 Ele utiliza o `create-react-app` e adiciona algumas funcionalidades.
 
